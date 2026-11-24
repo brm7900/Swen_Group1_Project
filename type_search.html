@@ -8,17 +8,27 @@ div {
 </style>
 <head>
     <meta charset="UTF-8" />
-    <title>title</title>
+    <title>Search</title>
 </head>
-    <h1 style="text-align:center;">Type Search</h1>
+    <h1 style="text-align:center;">Group Search</h1>
 <body>
     <div>
-        <label for="email">Enter Your Location:</label><br>
-        <input type="text" id="email" email="email">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name">
     </div>
 
     <br>
 
+    <div>
+        <label for="loc">Location:</label><br>
+        <input type="text" id="loc" loc="loc">
+    </div>
+
+    <br>
+
+    <div>
+        <p>Type:</p>
+    </div>
     <div>
         <input type="radio" id="Environmental" name="type" value="Environmental">
         <label for="Environmental">Environmental</label><br>
@@ -35,7 +45,7 @@ div {
     <br>
 
     <div>
-        <button style="background-color:#38761D;" onclick="document.location='index.html'" type="button">Save</button>
+        <button style="background-color:#38761D;" onclick="document.location='index.html'" type="button">Search</button>
     </div>
 </body>
 </html>
