@@ -8,6 +8,9 @@
         width: 15%;
         margin:0%
     }
+    .select {
+        cursor:pointer;
+    }
 </style>
 
 
@@ -15,11 +18,11 @@
     <div class="container" style="background-color: #FFAB40;">
         <div><h2 style="color: #0097A7;"">QuickContribute.com</h2></div>
         <div><h2> </h2></div>
-        <div><h2 onclick="document.location='event_herstory.html'">Event History</h2></div>
-        <div><h2 onclick="document.location='settings.html'">Settings</h2></div>
-        <div><h2 onclick="document.location='type_search.html'">Search</h2></div>
-        <div><h2 onclick="document.location='calendar.html'">Calendar</h2></div>
-        <div><h2 onclick="document.location='signin.html'">Sign in</h2><h2 onclick="document.location='register.html'">Sign Up</h2></div>
+        <div class="select"><h2 onclick="document.location='event_herstory.html'">Event History</h2></div>
+        <div class="select"><h2 onclick="document.location='settings.html'">Settings</h2></div>
+        <div class="select"><h2 onclick="document.location='type_search.html'">Search</h2></div>
+        <div class="select"><h2 onclick="document.location='calendar.html'">Calendar</h2></div>
+        <div class="select"><h2 onclick="document.location='signin.html'">Sign in</h2><h2 onclick="document.location='register.html'">Sign Up</h2></div>
     </div>
     <head>
         <meta charset="UTF-8" />
@@ -27,7 +30,7 @@
 <body>
      <div style="width: 100%;margin: auto;text-align:center;"><h1>Feed</h1></div>
      <div style="width: 100%;margin: auto;text-align:center;"><h2>Rochester Animal Shelter</h2></div>
-     <div style="width: 600px;margin: auto;"><img src="images/the_sludge.png" alt="when mom brings home the sludge" onclick="document.location='group_page.html'"></div>
+     <div class="select" style="width: 600px;margin: auto;"><img src="images/the_sludge.png" alt="when mom brings home the sludge" onclick="document.location='group_page.html'"></div>
      <div style="width: 100%;margin: auto;text-align:center;color: red;"><br><p>Unable to load more events</p></div>
 </body>
 </html>
